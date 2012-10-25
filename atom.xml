@@ -4,7 +4,7 @@
   <title><![CDATA[Hello Im Steve!!]]></title>
   <link href="http://sursrc.github.com/atom.xml" rel="self"/>
   <link href="http://sursrc.github.com/"/>
-  <updated>2012-10-25T14:30:36+08:00</updated>
+  <updated>2012-10-25T14:40:44+08:00</updated>
   <id>http://sursrc.github.com/</id>
   <author>
     <name><![CDATA[Steve Joseph]]></name>
@@ -12,5 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[hello world again!]]></title>
+    <link href="http://sursrc.github.com/blog/2012/10/25/hello-world-again/"/>
+    <updated>2012-10-25T14:32:00+08:00</updated>
+    <id>http://sursrc.github.com/blog/2012/10/25/hello-world-again</id>
+    <content type="html"><![CDATA[<p>把octopress从公司的archlinux迁移到自己的mac时不慎把所有数据丢失了，还好原来的日志不多。</p>
+
+<p>不过在mountain lion上安装octopress时跟着官网提示的步配置环境，总是报错，貌似是xcode版本问题。
+后来看了一篇日志后搞定。</p>
+
+<p>日志链接
+http:tylermauthe.com/blog/blog/2012/08/08/how-to-setup-octopress-on-mac-osx-mountain-lion/</p>
+]]></content>
+  </entry>
   
 </feed>
