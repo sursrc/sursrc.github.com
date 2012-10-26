@@ -4,11 +4,11 @@
   <title><![CDATA[Hello Im Steve!!]]></title>
   <link href="http://sursrc.github.com/atom.xml" rel="self"/>
   <link href="http://sursrc.github.com/"/>
-  <updated>2012-10-26T17:14:30+08:00</updated>
+  <updated>2012-10-26T17:17:47+08:00</updated>
   <id>http://sursrc.github.com/</id>
   <author>
     <name><![CDATA[Steve Joseph]]></name>
-    
+    <email><![CDATA[sursrc@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
