@@ -9,12 +9,10 @@
   <meta name="author" content="Steve Joseph">
 
   
-  <meta name="description" content="He paid up front.
-I got a new gig.
-I&#8217;m still on the fence.
-I&#8217;m on a tight budget.
-She&#8217;s the breadwinner.
-It was bettle&#8217;s rip &hellip;">
+  <meta name="description" content="@class 告诉编译器有这样一个类，不会引入类的内容，节省时间。
+1. 需要用到这个类名，但不需要类的成员或方法时尽量用@class，否则需要用#import。
+2. 两个类相互引用引起死锁时，要使用@class。
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -70,6 +68,46 @@ It was bettle&#8217;s rip &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/11/06/ios-learning-note/">IOS学习笔记</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-06T14:20:00+08:00" pubdate data-updated="true">Nov 6<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>@class</h2>
+
+<p>告诉编译器有这样一个类，不会引入类的内容，节省时间。
+1. 需要用到这个类名，但不需要类的成员或方法时尽量用@class，否则需要用#import。
+2. 两个类相互引用引起死锁时，要使用@class。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -214,6 +252,10 @@ http:tylermauthe.com/blog/blog/2012/08/08/how-to-setup-octopress-on-mac-osx-moun
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/11/06/ios-learning-note/">IOS学习笔记</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2012/11/06/learning-english-note/">My English Learning Note</a>
