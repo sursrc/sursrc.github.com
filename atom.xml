@@ -4,7 +4,7 @@
   <title><![CDATA[Hello Im Steve!!]]></title>
   <link href="http://sursrc.github.com/atom.xml" rel="self"/>
   <link href="http://sursrc.github.com/"/>
-  <updated>2012-11-06T14:30:13+08:00</updated>
+  <updated>2012-11-06T14:32:42+08:00</updated>
   <id>http://sursrc.github.com/</id>
   <author>
     <name><![CDATA[Steve Joseph]]></name>
@@ -21,8 +21,8 @@
     <content type="html"><![CDATA[<h2>@class</h2>
 
 <p>告诉编译器有这样一个类，不会引入类的内容，节省时间。<br/>
-1. 需要用到这个类名，但不需要类的成员或方法时尽量用@class，否则需要用#import。<br/>
-2. 两个类相互引用引起死锁时，要使用@class。</p>
+- 1. 需要用到这个类名，但不需要类的成员或方法时尽量用<strong>@class，</strong>否则需要用<strong>#import</strong>。<br/>
+- 2. 两个类相互引用引起死锁时，要使用<strong>@class</strong>。</p>
 ]]></content>
   </entry>
   
