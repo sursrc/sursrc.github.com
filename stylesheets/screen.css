@@ -1,16 +1,23 @@
 /*
-Syntax error: Invalid CSS after "$nav-bg-front": expected selector or at-rule, was ": image-url('no..."
-        on line 26 of /Users/josephsteve/Sites/octopress/sass/base/_theme.scss
+Syntax error: Invalid CSS after "$nav-bg: ": expected expression (e.g. 1px, bold), was ";"
+        on line 25 of /Users/josephsteve/Sites/octopress/sass/base/_theme.scss
         from line 3 of /Users/josephsteve/Sites/octopress/sass/_base.scss
         from line 8 of /Users/josephsteve/Sites/octopress/sass/screen.scss
 
 Backtrace:
-/Users/josephsteve/Sites/octopress/sass/base/_theme.scss:26
+/Users/josephsteve/Sites/octopress/sass/base/_theme.scss:25
 /Users/josephsteve/Sites/octopress/sass/_base.scss:3
 /Users/josephsteve/Sites/octopress/sass/screen.scss:8
 /Users/josephsteve/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.1.20/lib/sass/scss/parser.rb:1010:in `expected'
-/Users/josephsteve/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.1.20/lib/sass/scss/parser.rb:956:in `expected'
-/Users/josephsteve/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.1.20/lib/sass/scss/parser.rb:28:in `parse'
+/Users/josephsteve/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.1.20/lib/sass/script/lexer.rb:191:in `expected!'
+/Users/josephsteve/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.1.20/lib/sass/script/parser.rb:450:in `assert_expr'
+/Users/josephsteve/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.1.20/lib/sass/script/parser.rb:49:in `parse'
+/Users/josephsteve/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.1.20/lib/sass/scss/parser.rb:900:in `sass_script'
+/Users/josephsteve/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.1.20/lib/sass/scss/parser.rb:437:in `variable'
+/Users/josephsteve/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.1.20/lib/sass/scss/parser.rb:480:in `block_child'
+/Users/josephsteve/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.1.20/lib/sass/scss/parser.rb:473:in `block_contents'
+/Users/josephsteve/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.1.20/lib/sass/scss/parser.rb:58:in `stylesheet'
+/Users/josephsteve/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.1.20/lib/sass/scss/parser.rb:27:in `parse'
 /Users/josephsteve/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.1.20/lib/sass/engine.rb:327:in `_to_tree'
 /Users/josephsteve/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.1.20/lib/sass/engine.rb:259:in `to_tree'
 /Users/josephsteve/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:144:in `visit_import'
@@ -62,4 +69,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"$nav-bg-front\": expected selector or at-rule, was \": image-url('no...\"\A         on line 26 of /Users/josephsteve/Sites/octopress/sass/base/_theme.scss\A         from line 3 of /Users/josephsteve/Sites/octopress/sass/_base.scss\A         from line 8 of /Users/josephsteve/Sites/octopress/sass/screen.scss"; }
+  content: "Syntax error: Invalid CSS after \"$nav-bg: \": expected expression (e.g. 1px, bold), was \";\"\A         on line 25 of /Users/josephsteve/Sites/octopress/sass/base/_theme.scss\A         from line 3 of /Users/josephsteve/Sites/octopress/sass/_base.scss\A         from line 8 of /Users/josephsteve/Sites/octopress/sass/screen.scss"; }
