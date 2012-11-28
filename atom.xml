@@ -4,7 +4,7 @@
   <title><![CDATA[Hello Im Steve!!]]></title>
   <link href="http://sursrc.github.com/atom.xml" rel="self"/>
   <link href="http://sursrc.github.com/"/>
-  <updated>2012-11-28T00:24:03+08:00</updated>
+  <updated>2012-11-28T09:27:56+08:00</updated>
   <id>http://sursrc.github.com/</id>
   <author>
     <name><![CDATA[Steve Joseph]]></name>
@@ -24,6 +24,10 @@
 alias ls=&#8221;ls -l&#8221;<br/>
 ls /usr/bin 等于 ls -l /usr/bin<br/>
 \ls /usr/bin 等于 ls /usr/bin</p>
+
+<h2>sudo !!</h2>
+
+<p>以root的身份执行上一条命令 。</p>
 ]]></content>
   </entry>
   
