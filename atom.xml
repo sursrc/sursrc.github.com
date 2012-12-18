@@ -4,7 +4,7 @@
   <title><![CDATA[Hello Im Steve!!]]></title>
   <link href="http://sursrc.github.com/atom.xml" rel="self"/>
   <link href="http://sursrc.github.com/"/>
-  <updated>2012-12-01T00:09:36+08:00</updated>
+  <updated>2012-12-18T16:05:35+08:00</updated>
   <id>http://sursrc.github.com/</id>
   <author>
     <name><![CDATA[Steve Joseph]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[learning vi note]]></title>
+    <link href="http://sursrc.github.com/blog/2012/12/18/learning-vi-note/"/>
+    <updated>2012-12-18T16:03:00+08:00</updated>
+    <id>http://sursrc.github.com/blog/2012/12/18/learning-vi-note</id>
+    <content type="html"><![CDATA[<p>set foldmethod = indent</p>
+
+<pre><code>zM 全部折叠
+zR 全部打开
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Shell 学习笔记(1)]]></title>
@@ -59,8 +72,8 @@ ls /usr/bin 等于 ls -l /usr/bin<br/>
 <li>My computer crashed.</li>
 <li>We had a working lunch.</li>
 <li>I felt very out of place.</li>
-<li><p>It was just passing fad.</p></li>
-<li><p>I have some reservations.(我保留意见)</p></li>
+<li>It was just passing fad.</li>
+<li>I have some reservations.(我保留意见)</li>
 <li>Actually, I am between jobs. (I&#8217;m unemployed.)</li>
 <li>We need to meet halfway. (妥协,compromise)</li>
 <li>Please keep me informed.</li>
