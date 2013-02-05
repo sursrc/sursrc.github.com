@@ -4,7 +4,7 @@
   <title><![CDATA[Hello Im Steve!!]]></title>
   <link href="http://sursrc.github.com/atom.xml" rel="self"/>
   <link href="http://sursrc.github.com/"/>
-  <updated>2013-01-01T01:22:29+08:00</updated>
+  <updated>2013-02-05T15:35:10+08:00</updated>
   <id>http://sursrc.github.com/</id>
   <author>
     <name><![CDATA[Steve Joseph]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CF VS NS]]></title>
+    <link href="http://sursrc.github.com/blog/2013/02/05/cf-vs-ns/"/>
+    <updated>2013-02-05T15:15:00+08:00</updated>
+    <id>http://sursrc.github.com/blog/2013/02/05/cf-vs-ns</id>
+    <content type="html"><![CDATA[<p>参考
+http://stackoverflow.com/questions/9353804/cf-objects-vs-ns-objects</p>
+
+<p>1.不是所有的CF类有等价的NS类，反之亦然。
+2.有相同名称的类不一定做相同的事。
+3.尽量用NS。底层框架不支持NS，或性能要求高的部分用CF。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[2013新年许愿]]></title>
