@@ -9,11 +9,11 @@
   <meta name="author" content="Steve Joseph">
 
   
-  <meta name="description" content="参考
-http://stackoverflow.com/questions/9353804/cf-objects-vs-ns-objects 1.不是所有的CF类有等价的NS类，反之亦然。
-2.有相同名称的类不一定做相同的事。
-3.尽量用NS。底层框架不支持NS，或性能要求高的部分用CF。
-">
+  <meta name="description" content="The memory system L0 : registers
+L1 : on-chip L1 cache (SRAM)
+L2 : off-chip L2 cache (SRAM)
+L3 : main memory (DRAM)
+L4 : local secondary storage ( &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -58,6 +58,54 @@ http://stackoverflow.com/questions/9353804/cf-objects-vs-ns-objects 1.不是所�
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/17/cao-zuo-xi-tong-xue-xi-bi-ji-%281%29/">操作系统学习笔记（1）</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-17T14:26:00+08:00" pubdate data-updated="true">Jun 17<span>th</span>, 2013</time>
+        
+         | <a href="/blog/2013/06/17/cao-zuo-xi-tong-xue-xi-bi-ji-%281%29/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>The memory system</p>
+
+<p>L0 : registers
+L1 : on-chip L1 cache (SRAM)
+L2 : off-chip L2 cache (SRAM)
+L3 : main memory (DRAM)
+L4 : local secondary storage (local disk)
+L5 : remote secondary storage (distributed file systems, Web servers)</p>
+
+<p>from top to botton, Larger,slower, and cheaper storage devices
+register file is a cache for the L1 cache, which is a cache for the L2 cache, which is a cache for the main memory, whici is a cache for the disk.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>

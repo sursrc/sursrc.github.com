@@ -4,7 +4,7 @@
   <title><![CDATA[Hello Im Steve!!]]></title>
   <link href="http://sursrc.github.com/atom.xml" rel="self"/>
   <link href="http://sursrc.github.com/"/>
-  <updated>2013-02-05T15:36:44+08:00</updated>
+  <updated>2013-06-17T14:36:26+08:00</updated>
   <id>http://sursrc.github.com/</id>
   <author>
     <name><![CDATA[Steve Joseph]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[操作系统学习笔记（1）]]></title>
+    <link href="http://sursrc.github.com/blog/2013/06/17/cao-zuo-xi-tong-xue-xi-bi-ji-%281%29/"/>
+    <updated>2013-06-17T14:26:00+08:00</updated>
+    <id>http://sursrc.github.com/blog/2013/06/17/cao-zuo-xi-tong-xue-xi-bi-ji-(1)</id>
+    <content type="html"><![CDATA[<p>The memory system</p>
+
+<p>L0 : registers
+L1 : on-chip L1 cache (SRAM)
+L2 : off-chip L2 cache (SRAM)
+L3 : main memory (DRAM)
+L4 : local secondary storage (local disk)
+L5 : remote secondary storage (distributed file systems, Web servers)</p>
+
+<p>from top to botton, Larger,slower, and cheaper storage devices
+register file is a cache for the L1 cache, which is a cache for the L2 cache, which is a cache for the main memory, whici is a cache for the disk.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CF VS NS]]></title>
