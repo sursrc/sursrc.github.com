@@ -4,7 +4,7 @@
   <title><![CDATA[Hello Im Steve!!]]></title>
   <link href="http://sursrc.github.com/atom.xml" rel="self"/>
   <link href="http://sursrc.github.com/"/>
-  <updated>2013-07-19T14:50:36+08:00</updated>
+  <updated>2013-07-19T15:56:06+08:00</updated>
   <id>http://sursrc.github.com/</id>
   <author>
     <name><![CDATA[Steve Joseph]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[操作系统学习（2）]]></title>
+    <link href="http://sursrc.github.com/blog/2013/07/19/cao-zuo-xi-tong-xue-xi-%282%29/"/>
+    <updated>2013-07-19T15:53:00+08:00</updated>
+    <id>http://sursrc.github.com/blog/2013/07/19/cao-zuo-xi-tong-xue-xi-(2)</id>
+    <content type="html"><![CDATA[<p>Since a virtual address is encoded by such a word, the most important system parameter determined by the word size is the maximum size of the virtual address space.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[操作系统学习笔记（1）]]></title>

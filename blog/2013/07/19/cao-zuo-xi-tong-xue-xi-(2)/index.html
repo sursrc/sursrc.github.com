@@ -5,15 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>操作系统学习笔记（1） - Hello Im Steve!!</title>
+  <title>操作系统学习（2） - Hello Im Steve!!</title>
   <meta name="author" content="Steve Joseph">
 
   
-  <meta name="description" content="The memory system L0 : registers
-L1 : on-chip L1 cache (SRAM)
-L2 : off-chip L2 cache (SRAM)
-L3 : main memory (DRAM)
-L4 : local secondary storage ( &hellip;">
+  <meta name="description" content="Since a virtual address is encoded by such a word, the most important system parameter determined by the word size is the maximum size of the virtual &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -22,7 +18,7 @@ L4 : local secondary storage ( &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://sursrc.github.com/blog/2013/06/17/cao-zuo-xi-tong-xue-xi-bi-ji-%281%29/">
+  <link rel="canonical" href="http://sursrc.github.com/blog/2013/07/19/cao-zuo-xi-tong-xue-xi-%282%29/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -61,7 +57,7 @@ L4 : local secondary storage ( &hellip;">
   
   <header>
     
-      <h1 class="entry-title">操作系统学习笔记（1）</h1>
+      <h1 class="entry-title">操作系统学习（2）</h1>
     
     
       <p class="meta">
@@ -77,7 +73,7 @@ L4 : local secondary storage ( &hellip;">
   
 
 
-<time datetime="2013-06-17T14:26:00+08:00" pubdate data-updated="true">Jun 17<span>th</span>, 2013</time>
+<time datetime="2013-07-19T15:53:00+08:00" pubdate data-updated="true">Jul 19<span>th</span>, 2013</time>
         
          | <a href="#disqus_thread">Comments</a>
         
@@ -86,23 +82,7 @@ L4 : local secondary storage ( &hellip;">
   </header>
 
 
-<div class="entry-content"><p>The memory system</p>
-
-<p>L0 : registers
-L1 : on-chip L1 cache (SRAM)
-L2 : off-chip L2 cache (SRAM)
-L3 : main memory (DRAM)
-L4 : local secondary storage (local disk)
-L5 : remote secondary storage (distributed file systems, Web servers)</p>
-
-<p>from top to botton, Larger,slower, and cheaper storage devices
-register file is a cache for the L1 cache, which is a cache for the L2 cache, which is a cache for the main memory, whici is a cache for the disk.</p>
-
-<p>The Operating System Manages The Hardware</p>
-
-<p>Processes</p>
-
-<p>A process is the operating system&#8217;s abstraction for a running program.</p>
+<div class="entry-content"><p>Since a virtual address is encoded by such a word, the most important system parameter determined by the word size is the maximum size of the virtual address space.</p>
 </div>
 
 
@@ -117,10 +97,8 @@ register file is a cache for the L1 cache, which is a cache for the L2 cache, wh
     
 
     
-      <a class="basic-alignment left" href="/blog/2013/07/19/cao-zuo-xi-tong-xue-xi-%282%29/" title="Next Post: 操作系统学习（2）">&laquo; 操作系统学习（2）</a>
+      <a class="basic-alignment left" href="" title="Next Post: ">&laquo; </a>
     
-    
-      <a class="basic-alignment right" href="/blog/2013/02/05/cf-vs-ns/" title="Previous Post: CF VS NS">CF VS NS &raquo;</a>
     
 
   </footer>
@@ -150,8 +128,8 @@ register file is a cache for the L1 cache, which is a cache for the L2 cache, wh
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://sursrc.github.com/blog/2013/06/17/cao-zuo-xi-tong-xue-xi-bi-ji-%281%29/';
-        var disqus_url = 'http://sursrc.github.com/blog/2013/06/17/cao-zuo-xi-tong-xue-xi-bi-ji-%281%29/';
+        var disqus_identifier = 'http://sursrc.github.com/blog/2013/07/19/cao-zuo-xi-tong-xue-xi-%282%29/';
+        var disqus_url = 'http://sursrc.github.com/blog/2013/07/19/cao-zuo-xi-tong-xue-xi-%282%29/';
         var disqus_script = 'embed.js';
       
     (function () {
