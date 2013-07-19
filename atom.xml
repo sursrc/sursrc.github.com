@@ -4,7 +4,7 @@
   <title><![CDATA[Hello Im Steve!!]]></title>
   <link href="http://sursrc.github.com/atom.xml" rel="self"/>
   <link href="http://sursrc.github.com/"/>
-  <updated>2013-07-19T15:56:06+08:00</updated>
+  <updated>2013-07-19T16:12:05+08:00</updated>
   <id>http://sursrc.github.com/</id>
   <author>
     <name><![CDATA[Steve Joseph]]></name>
@@ -19,6 +19,18 @@
     <updated>2013-07-19T15:53:00+08:00</updated>
     <id>http://sursrc.github.com/blog/2013/07/19/cao-zuo-xi-tong-xue-xi-(2)</id>
     <content type="html"><![CDATA[<p>Since a virtual address is encoded by such a word, the most important system parameter determined by the word size is the maximum size of the virtual address space.</p>
+
+<p>32位系统最大支持内存是4G。<br/>
+2<sup>30</sup> = 1GB<br/>
+2<sup>32</sup> = 4GB</p>
+
+<p>那么64位能支持多少呢？</p>
+
+<p>2<sup>40</sup> = 1TB<br/>
+2<sup>50</sup> = 1PB<br/>
+2<sup>60</sup> = 1EB<br/>
+2<sup>64</sup> = 16EB<br/>
+我擦~ 好多~ 够用了</p>
 ]]></content>
   </entry>
   
