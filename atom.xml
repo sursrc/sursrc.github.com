@@ -4,7 +4,7 @@
   <title><![CDATA[Hello Im Steve!!]]></title>
   <link href="http://sursrc.github.com/atom.xml" rel="self"/>
   <link href="http://sursrc.github.com/"/>
-  <updated>2013-12-23T18:41:42+08:00</updated>
+  <updated>2014-03-11T16:06:27+08:00</updated>
   <id>http://sursrc.github.com/</id>
   <author>
     <name><![CDATA[Steve Joseph]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[关于接单]]></title>
+    <link href="http://sursrc.github.com/blog/2014/03/11/guan-yu-jie-dan/"/>
+    <updated>2014-03-11T16:02:00+08:00</updated>
+    <id>http://sursrc.github.com/blog/2014/03/11/guan-yu-jie-dan</id>
+    <content type="html"><![CDATA[<p>关系再好也一定要做好需求分析，要有详细的文档。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[忙]]></title>
